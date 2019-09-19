@@ -5,3 +5,5 @@ CNN accuracy on unseen test Data - 69.68%
 NN accuracy on unseen test Data - 48.82%.
 
 --for CNN i started with 50 epochs but interrupt the kernal after 15 epochs as it was taking lot of time, and as the training accuracy has started fluctuating between 74.2 - 74.8 %
+
+HDF5 format CNN Model is there, Just download it and you can load the model directly into your Jupyter Notebook using keras.models.load_model('model_name')
